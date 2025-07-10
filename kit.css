@@ -1,0 +1,612 @@
+html {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+  }
+
+*{
+    /*background-color: #e9e0d3;*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Background and Information Starts Here*/
+
+.header-kit-background {
+    height: 50em;
+    width: 105.5em;
+    background-color: #2a3f2e;
+    margin-bottom: 0;
+}
+
+/*.header-details img {
+    background-color: none;
+    background-image: none;
+}*/
+/*Still have something to complete here, Please note*/
+.kit-header1 {
+    margin-left: 4em;
+    background-color: none;
+    color: #e9e0d3;
+    font-size: 3em;
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+.header-details {
+    display: flex;
+    align-items: center;
+    color: #e9e0d3;
+    margin-top: -48em;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.options p {
+    margin-right: 2em;
+}
+/*Header Background and Information Ends Here*/
+
+/*Page Intro and Information Starts here*/
+.home-medical-sec1 {
+    display: flex;
+}
+
+.home-medical-sec1-pt1 {
+    margin-left: 16em;
+    margin-top: 7em;
+    color: #e9e0d3;
+}
+
+.home-medical-sec1-pt1 h1 {
+    font-size: 3.5em;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+.home-medical-sec1-pt1 h3  {
+    font-weight: lighter;
+    font-size: 1.8em;
+}
+
+.home-medical-sec1-pt2 {
+    margin-left: 12em;
+}
+
+/*Page Intro and Information Ends here*/
+
+/*Learn more button starts here*/
+
+.learnmore-home {
+    display: flex;
+    margin-top: -12em;
+    margin-left: 17em;
+    margin-bottom: 9em;
+}
+
+
+
+.learnmorebutton-pt1 a img {
+    border: #e9e0d3 10px bold;
+    margin-right: 2.5em;
+}
+
+.learnmorebutton-pt2 P {
+    color: #e9e0d3;
+}
+
+/*Learn more button ends here*/
+
+/*About and why partner with Kit Starts Here*/
+
+.about-why-partner-with-kit {
+    background-color: #e9e0d3;
+}
+
+.about-kit-homecontainer {
+    margin-left: 17em;
+    padding-top: 5em;
+    margin-right: 12em;
+}
+
+.what-is-kit h2 {
+    font-size: 1.8em;
+    font-weight: 700; 
+    margin-bottom: 1.5em;
+}
+
+.what-is-kit p {
+    font-size: 1.7em;
+    font-weight: 349;
+    padding-bottom: 20px;
+}
+
+.what-is-kit {
+    margin-bottom: 4em;
+}
+
+.kit-partners h2 {
+    font-size: 1.8em;
+    font-weight: 700; 
+    margin-bottom: 1.5em;   
+}
+
+.kit-partners {
+    font-size: 19px;
+}
+
+.section1-kit-partners {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+
+.health-insurers p {
+    margin-top: -2em;
+    margin-left: 4em;
+    margin-right: 11em;
+}
+
+.Life-and-disabiliy-insurers p {
+    margin-top: -2em;
+    margin-left: 4em;
+    margin-right: 11em;
+}
+
+
+.clinical-trials p {
+    margin-top: -2em;
+    margin-left: 4em;
+}
+
+.section2-kit-partners {
+    display: flex;
+    padding-bottom: 7em;
+}
+
+
+.telehealth p {
+    margin-top: -2em;
+    margin-left: 4em;
+    margin-right: 13em;
+}
+
+.Wellness p {
+    margin-top: -2em;
+    margin-left: 4em;
+    margin-right: 18em;
+}
+
+
+.self-insured-employers p {
+    margin-top: -2em;
+    margin-left: 4em;
+}
+
+
+/*Why Partner With Kit Starts Here*/
+.why-partner-with-kit {
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.why-partner-with-kit h2 {
+    font-size: 2em;
+}
+
+.a-modern-take-home img {
+    width: 33em;
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
+
+.a-modern-take-home {
+    display: flex;
+    align-items: center;
+}
+
+.a-modern-take {
+    font-size: 30px;
+}
+
+.a-modern-take h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.a-modern-take p {
+    padding-bottom: 15px;
+}
+
+.kits-components-home img {
+    width: 33em;
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
+
+.kits-components-home {
+    display: flex;
+    align-items: center;
+}
+
+.kits-components {
+    font-size: 30px;
+}
+
+.kits-components h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.kits-components p {
+    padding-top: 15px;
+    
+}
+
+.kits-enable-home img {
+    width: 33em;
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
+
+.kits-enable-home {
+    display: flex;
+    align-items: center;
+}
+
+.kits-enable {
+    font-size: 30px;
+}
+
+.kits-enable h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.kits-enable p {
+    padding-top: 15px;
+    
+}
+
+.orders-test-home img {
+    width: 33em;
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
+
+.orders-test-home {
+    display: flex;
+    align-items: center;
+}
+
+.orders-test {
+    font-size: 30px;
+}
+
+.orders-test h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.orders-test p {
+    padding-bottom: 15px;
+}
+
+
+/*Why Partner With Kit Ends Here
+
+/*About and why partner with Kit Ends Here*/
+
+/*World class home starts here*/
+
+.world-class-home {
+    height: 60.7em;
+    width: 105.5em;
+    background-color: #2a3f2e;
+}
+
+.world-class-container {
+    display: flex;
+    margin-left: 17em;
+    padding-top: 10em;
+    margin-right: 12em;
+}
+
+.world-class-info1 {
+    color: #e9e0d3;
+    margin: 1.5em 0 0 4em;
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+.world-class-info1 h2 {
+    font-size: 28px;
+    margin-bottom: 2em;
+    font-weight: bolder;
+}
+
+.world-class-info1 p {
+    padding-bottom: 10px;
+}
+
+.world-class-info-inner1 {
+    padding-top: 1.5em;
+}
+
+.world-class-info-inner2 {
+    padding-top: 1.5em;
+}
+
+.world-class-info-inner2 p {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/*World class home ends here*/
+
+/*Why do patient love Kit Starts here*/
+
+.why-do-patient-love-kit-general {
+    background-color: #e9e0d3;
+    padding-bottom: 2em;
+}
+
+.why-do-patient-love-kit-text {
+    text-align: center;
+    margin-bottom: 8em;
+    padding-top: 7em;
+}
+
+.why-do-patient-love-kit-text h2 {
+    font-size: 2em;
+}
+
+.live-help-back {
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+}
+
+.live-help {
+    display: flex;
+    margin-top: -32em;
+    margin-left: 20em;
+    margin-bottom: 15em;
+}
+
+.live-help-inner img{
+    margin-left: 12em;
+    margin-top: -10em;
+}
+
+.live-help-text {
+    font-size: 27px;
+    margin-left: -5em;
+    margin-top: -3em;
+    font-weight: lighter;
+}
+
+.live-help-text h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.live-help-text p {
+    padding-bottom: 15px;
+}
+
+
+.live-help-back {
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+    margin-bottom: 10em;
+}
+
+.at-your-convinience-back {
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+}
+
+.at-your-convinience {
+    display: flex;
+    margin-top: -32em;
+    margin-left: 20em;
+    margin-bottom: 15em;
+}
+
+.at-your-convinience-inner img{
+    margin-left: 12em;
+    margin-top: -10em;
+}
+
+.at-your-convinience-text {
+    font-size: 27px;
+    margin-left: -5em;
+    margin-top: -3em;
+    font-weight: lighter;
+}
+
+.at-your-convinience-text h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.at-your-convinience-text p {
+    padding-bottom: 15px;
+}
+
+
+.at-your-convinience-back{
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+    margin-bottom: 10em;
+}
+
+
+
+.rapid-result-back {
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+}
+
+.rapid-result {
+    display: flex;
+    margin-top: -32em;
+    margin-left: 20em;
+    margin-bottom: 15em;
+}
+
+.rapid-result-inner img{
+    margin-left: 12em;
+    margin-top: -10em; 
+}
+
+.rapid-result-text {
+    font-size: 27px;
+    margin-left: -5em;
+    margin-top: -3em;
+    font-weight: lighter;
+}
+
+.rapid-result-text h2 {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.rapid-result-text p {
+    padding-bottom: 15px;
+}
+
+
+.rapid-result-back {
+    width: 29em;
+    height: 40em;
+    background-color: #e5d6c1;
+    margin-left: 50em;
+    margin-bottom: 10em;
+}
+
+/*Why do patient love Kit Ends here*/
+
+
+/*World class home starts here*/
+
+.balikis-zakariya-home {
+    height: 96em;
+    width: 105.5em;
+    background-color: #2a3f2e;
+}
+
+.balikis-zakariyah-container {
+    display: flex;
+    margin-left: 17em;
+    padding-top: 10em;
+    margin-right: 12em;
+}
+
+.balikis-zakariyah-info1 {
+    color: #e9e0d3;
+    margin: 1.5em 0 0 4em;
+    font-size: 29px;
+    font-weight: bolder;
+}
+
+.balikis-zakariyah-inner1 {
+    margin-top: 2em;
+}
+
+.balikis-zakariyah-info1 h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.balikis-zakariyah-info1 p {
+    padding-bottom: 10px;
+}
+
+.balikis-zakariyah-info1 {
+    padding-top: 2em;
+}
+
+.Balikis-zakariyah-innr2 {
+    padding-top: 2em;
+}
+
+.Balikis-zakariyah-inner2 p {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.award-main-container {
+    display: flex;
+    margin-left: 20em;
+    margin-top: 16em;
+}
+
+.award-main-container img {
+    width: 9em;
+    padding-right: 3em;
+    
+}
+
+.social-media {
+    margin-left: 17em;
+    display: flex;
+    margin-top: 5em;
+}
+
+.kit-footer img {
+    cursor: pointer;
+}
+
+.twitter img{
+    width: 2.5em;
+    margin-left: 16em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.linkedin img{
+    width: 2.5em;
+    margin-left: 10em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.personal-info {
+    margin-left: 65em;
+    margin-top: 3em;
+}
+
+.personal-info p {
+    color:#e9e0d3;
+    font-size: 1.3em;
+}
+
+
+
+
+
+/*World class home ends here*/
